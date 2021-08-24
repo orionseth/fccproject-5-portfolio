@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #333;
   font-size: 1.8rem;
 }
@@ -31,7 +31,7 @@ body {
 .nav-bar__link:link,
 .nav-bar__link:visited {
   text-decoration: none;
-  font-size: 2.2rem;
+  font-size: 2rem;
   display: block;
   padding: 2rem;
   color: #333;
@@ -60,14 +60,14 @@ body {
 }
 
 .welcome__title {
-  font-size: 6rem;
+  font-size: 6.2rem;
+  font-weight: 600;
+  letter-spacing: -2px;
   color: #f0f0f0;
-  font-weight: lighter;
-  letter-spacing: 1px;
 }
 
 .welcome__subtitle {
-  font-size: 3rem;
+  font-size: 3.6rem;
   color: #e45000;
   color: #555;
   font-style: italic;
@@ -80,10 +80,10 @@ body {
 }
 
 .section__title {
-  font-size: 4rem;
+  font-size: 4.4rem;
+  font-weight: 600;
+  letter-spacing: -1px;
   text-align: center;
-  font-weight: lighter;
-  letter-spacing: 1px;
 }
 
 .section__title::after {
@@ -96,9 +96,9 @@ body {
 }
 
 .section__subtitle {
-  font-size: 2rem;
+  font-size: 3rem;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 4rem;
 }
@@ -139,7 +139,7 @@ body {
 }
 
 .project__title {
-  font-size: 2rem;
+  font-size: 2.4rem;
   padding: 2rem 0.5rem;
   text-align: center;
 }
