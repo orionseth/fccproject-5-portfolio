@@ -31,6 +31,7 @@ body {
   left: 0;
   background-color: #ff922b;
   border-bottom: 1px solid var(--main-grey);
+  z-index: 100;
 }
 
 .nav-bar__link:link,
@@ -129,6 +130,12 @@ body {
   text-decoration: none;
   background-color: #495057;
   color: #f0f0f0;
+  transition: transform 0.2s ease-out;
+}
+
+.project:hover,
+.project:active {
+  transform: translateY(4px);
 }
 
 .project:hover .project__title--code {
