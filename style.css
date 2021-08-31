@@ -29,8 +29,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ff922b;
-  border-bottom: 1px solid var(--main-grey);
+  background-color: rgba(241, 243, 245, 0.6);
   z-index: 100;
 }
 
@@ -38,6 +37,7 @@ body {
 .nav-bar__link:visited {
   text-decoration: none;
   font-size: 2rem;
+  font-weight: 600;
   display: block;
   padding: 2rem;
   color: var(--main-grey);
@@ -67,7 +67,7 @@ body {
 
 .welcome__title {
   font-size: 6.2rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -2px;
 }
 
@@ -133,11 +133,6 @@ body {
   transition: transform 0.2s ease-out;
 }
 
-.project:hover,
-.project:active {
-  transform: translateY(4px);
-}
-
 .project:hover .project__title--code {
   color: #fd7e14;
 }
@@ -190,7 +185,8 @@ body {
 .contact__link:hover,
 .contact__link:active {
   color: #212529;
-  transform: translateY(8px);
+  transform: translateY(-4px);
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* FOOTER */
@@ -210,6 +206,7 @@ body {
 .footer__link:hover,
 .footer__link:active {
   color: #212529;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* MEDIA QUERIES */
